@@ -22,3 +22,5 @@ jobs:
         context: .
         push: false
         tags: jpmcdaniel/hello-world:latest
+    - name: Run Docker image
+      run: docker run jpmcdaniel/hello-world:latest
